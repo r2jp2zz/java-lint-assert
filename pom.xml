@@ -50,12 +50,12 @@
         <!--  Publish versioned releases here  -->
         <repository>
             <id>nexus-release</id>
-            <url>${nexus.url.release}</url>
+            <url>https://oss.sonatype.org/content/repositories</url>
         </repository>
         <!--  Publish snapshots here  -->
         <snapshotRepository>
             <id>nexus-snapshot</id>
-            <url>${nexus.url.snapshot}</url>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
